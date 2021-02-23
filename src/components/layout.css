@@ -1,3 +1,135 @@
+.title-center {
+  text-align: center;
+}
+
+.profile-pic {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../images/blockkenwouter.jpeg");
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.nav-container {
+  background: "#0f101e";
+  padding-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-container li {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.nav-container a:hover {
+  color: #15c2ed;
+}
+
+.cards {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding: 1.5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+
+  color: white;
+
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+  border: 3px #15c2ed solid;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+}
+@media (min-width: 700px) {
+  .card {
+    max-width: 320px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .card:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 980px) {
+  .card:nth-child(even) {
+    margin-right: 20px;
+  }
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+.card span {
+  display: block;
+}
+.card .card-summary {
+  padding: 5% 5% 3% 5%;
+}
+.card .card-header {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card .card-meta {
+  text-align: center;
+}
+
+.card .card-title {
+  background: #0f101e;
+  padding: 3.5% 0 2.5% 0;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(21, 194, 237, 0.5);
+  transition: 0.5s ease-in-out;
+}
+.card .card-title h3 {
+  font-size: 1.2em;
+  line-height: 1.2;
+  padding: 0 3.5%;
+  margin: 0;
+}
+
+.card:hover .card-title,
+.card:focus .card-title {
+  background: #15c2ed;
+}
+
+img {
+  max-width: 100%;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -54,6 +186,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: white;
 }
 a:active,
 a:hover {
