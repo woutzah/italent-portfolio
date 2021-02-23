@@ -27,6 +27,11 @@
 .nav-container li {
   font-size: x-large;
   font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.nav-container a {
+  transition: all 0.5s;
 }
 
 .nav-container a:hover {
@@ -51,9 +56,7 @@
   position: relative;
   margin-bottom: 20px;
   padding-bottom: 30px;
-
   color: white;
-
   text-decoration: none;
   border-radius: 4px;
   transition: 0.5s ease-in-out;
@@ -88,6 +91,7 @@
 }
 .card .card-summary {
   padding: 5% 5% 3% 5%;
+  height: 38%;
 }
 .card .card-header {
   position: relative;

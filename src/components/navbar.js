@@ -2,7 +2,7 @@ import React from "react"
 import Link from "gatsby-link"
 
 const NavBar = () => (
-  <div className="nav-container">
+  <div className="nav-container stroke">
     <ul>
       <li>
         <Link to="/">Over mij</Link>
