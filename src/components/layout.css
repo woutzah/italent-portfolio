@@ -1,5 +1,29 @@
+.about {
+  width: 70%;
+  margin: auto;
+}
 .title-center {
   text-align: center;
+}
+#tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  clear: both;
+}
+
+#tabs .react-tabs__tab--selected {
+  background: #0f101e;
+  color: white;
+  border: #15c2ed 1px solid;
+  border-color: #15c2ed;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#panels {
+  width: 60%;
+  margin: auto;
 }
 
 .profile-pic {

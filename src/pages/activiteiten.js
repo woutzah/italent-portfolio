@@ -2,14 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import axxes_logo from "../images/axxes.jpg"
 import trase_logo from "../images/trase.jpg"
 import superlab_logo from "../images/superlab.png"
 
 const ActiviteitenPage = () => (
   <Layout>
-    <SEO title="Overzicht" />
     <h1 className="title-center">Overzicht</h1>
     <div className="cards">
       <a className="card" href="#">
