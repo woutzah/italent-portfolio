@@ -78,7 +78,7 @@
 
 .card {
   position: relative;
-  margin-bottom: 20px;
+  margin: 10px;
   padding-bottom: 30px;
   color: white;
   text-decoration: none;
@@ -106,9 +106,6 @@
   .card:nth-child(even) {
     margin-right: 20px;
   }
-  .card:nth-child(3n) {
-    margin-right: 0;
-  }
 }
 .card span {
   display: block;
@@ -116,6 +113,7 @@
 .card .card-summary {
   padding: 5% 5% 3% 5%;
   height: 38%;
+  font-size: 80%;
 }
 .card .card-header {
   position: relative;
