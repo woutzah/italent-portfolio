@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import "react-tabs/style/react-tabs.css"
 import Layout from "../components/layout"
 

@@ -16,8 +16,7 @@
 #tabs .react-tabs__tab--selected {
   background: #0f101e;
   color: white;
-  border: #15c2ed 1px solid;
-  border-color: #15c2ed;
+  border: 1px solid #15c2ed;
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -27,17 +26,15 @@
 }
 
 .profile-pic {
-  margin: auto;
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-image: url("../images/blockkenwouter.jpeg");
   background-size: cover;
-  margin-bottom: 4rem;
+  margin: auto auto 4rem;
 }
 
 .nav-container {
-  background: "#0f101e";
   padding-top: 2rem;
   margin-bottom: 8rem;
 }
@@ -45,12 +42,14 @@
 .nav-container ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .nav-container li {
   font-size: x-large;
   font-weight: bold;
+  display: block;
   padding-bottom: 10px;
 }
 
