@@ -56,17 +56,17 @@ const ActiviteitenPage = () => (
           uitgewerkt met Ethereum." place={"Hogeschool PXL, B-blok"} time={"6 maart 2019, 08u30 – 12u00"} />
       <ActivityCard imageUrl={pxl_logo} title={"POP-sessies 2018-2019"}
                     description="In deze 3 sessies werden de groepen van het Research project dichter bij elkaar gebracht en werd er onderzocht welke talenten en vaardigheden er zich in elke groep bevonden. Dit werd gedaan aan de hand van workshops en zelfreflectie."
-                    place={"Hogeschool PXL, B-blok"} time={"27/02/19, namiddag"} />
+                    place={"Hogeschool PXL, B-blok"} time={"27 februari 2019, namiddag"} />
       <ActivityCard imageUrl={superlab_logo} title={"Seminarie: Don’t make me think"} description="Dit seminarie was gebaseerd op het boek van Steve Krug over de basis
           van application usability. De basisconcepten van UX-design werden
           uitgelegd en waarom dit belangrijk is" place={"Hogeschool PXL, B-blok"}
                     time={"27 februari 2019, 09u30 – 12u00"} />
       <ActivityCard imageUrl={pxl_logo} title={"Seminarie: Digital@breakfast"}
                     description="Dit seminarie ging gepaard met een rijkelijk ontbijt in de cafetaria van de D-blok van de Hogeschool PXL. Er werd verteld over drones en Droneport in Sint-Truiden."
-                    place={"Hogeschool PXL, D-blok"} time={"20/02/19, 08u00 – 09u30"} />
+                    place={"Hogeschool PXL, D-blok"} time={"20 februari 2019, 08u00 – 09u30"} />
       <ActivityCard imageUrl={pxl_logo} title={"Projectweek 2018-2019"}
                     description="Tijdens deze week werden er verschillende hands-on workshops en seminaries georganiseerd. Dit was de inleidende week voor de aanvang van het Research Project."
-                    place={"Hogeschool PXL, Corda Campus"} time={"11/02/19 – 15/02/19"} />
+                    place={"Hogeschool PXL, Corda Campus"} time={"11 februari 2019 – 15 februari 2019"} />
     </div>
   </Layout>
 )
