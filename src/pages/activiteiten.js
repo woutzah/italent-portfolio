@@ -13,6 +13,7 @@ import acait_logo from "../images/acait.jpg"
 import axxes_logo from "../images/axxes.jpg"
 import trase_logo from "../images/trase.jpg"
 import superlab_logo from "../images/superlab.png"
+import google_logo from "../images/google.png"
 import ActivityCard from "../components/activity-card"
 
 const ActiviteitenPage = () => (
@@ -21,6 +22,9 @@ const ActiviteitenPage = () => (
     <div className="cards">
       <ActivityCard imageUrl={wd_logo} title="Woolly Development" description="Onderhouden van open source projectjes (Java) en de community die
           daarrond hangt." place="Zelf aangebracht, online" time="22 januari 2020 - heden" />
+      <ActivityCard imageUrl={google_logo} title="Hackathon: Google Hash Code"
+                    description="Hackathon georganiseerd door Google. Studenten namen deel aan de wedstrijd in teams."
+                    place={"online"} time={"25 februari 2021, avond"} />
       <ActivityCard imageUrl={selligent_logo} title="Seminarie: Data Engineering & Data Science at scale" description=" Tijdens dit seminarie werd er een interactieve workshop gehouden rond
           het verwerken van gegevens. Ook werd dieper ingegaan op het begrip
           “data”." place="online" time="29 december 2020, 09u00 – 12u00" />
