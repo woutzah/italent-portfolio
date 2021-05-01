@@ -22,6 +22,7 @@ const ActiviteitenPage = () => (
     <div className="cards">
       <ActivityCard imageUrl={wd_logo} title="Woolly Development" description="Onderhouden van open source projectjes (Java) en de community die
           daarrond hangt." place="Zelf aangebracht, online" time="22 januari 2020 - heden" />
+      <ActivityCard imageUrl={pxl_logo} title="Portfolio I-Talent" description="Uitschrijven en uitwerken van dit portfolio voor I-Talent." place="Zelf aangebracht, online" time="april 2021" />
       <ActivityCard imageUrl={google_logo} title="Hackathon: Google Hash Code"
                     description="Hackathon georganiseerd door Google. Studenten namen deel aan de wedstrijd in teams."
                     place={"online"} time={"25 februari 2021, avond"} />

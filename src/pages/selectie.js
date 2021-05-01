@@ -75,7 +75,9 @@ export default function SelectiePage() {
               de bedoeling dat we een aantal wireframes zouden uitwerken. Op het einde van de dag moesten we onze
               wireframes dan ook voorstellen aan de rest van de groep en kregen we ook feedback. In het algemeen waren
               de organisatoren tevreden over onze uitwerking.</p>
+            <div className="title-center">
             <img src={overzichtwireframes} alt="picture" />
+            </div>
             <p>
               De laatste dag begon met een uiteenzetting over het omvormen van wireframes naar prototypes, user testing
               en design handoff. Na deze presentaties gingen we weer aan de slag met dezelfde groepjes van de vorige
@@ -130,7 +132,9 @@ export default function SelectiePage() {
               schrijven en niet wouden berusten op een enkele persoon die zijn scherm zou delen. We zijn begonnen met
               een aantal Java tools uit te proberen, maar die waren niet functioneel genoeg. Daarom zijn we uiteindelijk
               overgestapt naar Visual Studio en besloten we om de oplossing in csharp uit te schrijven.</p>
+            <div className="title-center">
             <img src={opdrachtentestrond} alt="picture" />
+            </div>
             <p>Na wat prullen hadden we dan uiteindelijk een oplossing uitgeschreven. Helaas ging er door het
               disfunctioneren van het programma data verloren, waardoor we de oplossing zelf niet konden uploaden. Het
               was een goede leerschool om die problemen op te lossen voor aanvang van de wedstrijd.</p>
@@ -139,20 +143,26 @@ export default function SelectiePage() {
               makkelijker te maken en de samenhorigheid te stimuleren, werd er een online hub opgezet door het bedrijf
               Info Support. Het was een soort online klaslokaal waarin de deelnemers van de Hogeschool PXL dan aparte
               kamers hadden om zo te communiceren tijdens de wedstrijd.</p>
+            <div className="title-center">
             <img src={klaslokaal} alt="picture" />
+            </div>
             <p>Uiteindelijk begon de livestream en werd er een korte uitleg gegeven over de wedstrijd. Ze wisten ons ook
               te melden dat de editie van dit jaar de grootste editie ooit was. Dit jaar lag de focus vooral op Google
               Maps. Het probleem van de wedstrijd van dit jaar was dat er uit een bestand auto’s, straten, routes en
               kruispunten moesten uitgelezen worden. De opdracht was dat we zoveel mogelijk auto’s op hun eindbestemming
               moesten krijgen door een systeem te bedenken dat de stoplichten op het einde van elke straat zou
               regelen.</p>
+            <div className="title-center">
             <img src={opgavewedstrijd} alt="picture" />
+            </div>
             <p>In het begin was het even uitzoeken, maar al gauw gingen we per twee verder zoeken naar de oplossing. Ik
               ging aan de slag met het uitwerken van de domeinklassen. Dit om een simulatie te krijgen van onze
               oplossing. Na de voorziene vier uur was het dan de bedoeling om ons resultaat up te loaden. Helaas hadden
               we niet genoeg tijd om alles in te dienen, waardoor we een aantal punten zijn misgelopen. Uiteindelijk
               hebben we toch nog 5.7 miljoen punten kunnen behalen. Dit is zeker niet slecht voor een eerste keer.</p>
+            <div className="title-center">
             <img src={scoreboard} alt="picture" />
+            </div>
             <p>Voor ik aan de wedstrijd begon was ik niet echt enthousiast. Ik dacht dat het weer een standaard
               verplichte PXL-opdracht zou zijn. Dit kwam mede doordat ik geen idee had hoe het was om mee te doen aan
               programmeerwedstrijd.</p>
@@ -173,7 +183,9 @@ export default function SelectiePage() {
               groepsactiviteit te doen. Door het coronavirus is dit niet altijd mogelijk.</p>
           </TabPanel>
           <TabPanel>
-            <img src={wd_logo} alt="picture" />
+            <div className="title-center">
+              <img src={wd_logo} alt="picture" />
+            </div>
             <p>De activiteit waar ik het meest trots op ben is de community die ik heb opgebouwd rond mijn open source
               Java-projecten. Gedurende anderhalf jaar tijd heb ik samen met een goede vriend dit opgebouwd. Deze vriend
               heet Oliver Maenen en is nu ook mijn medestudent in de richting toegepaste informatica. Deze open source
@@ -203,7 +215,9 @@ export default function SelectiePage() {
             <p>Naast het ontwikkelen zelf was het ook belangrijk dat de plug-in een goede pagina had die ik kon
               gebruiken om de plug-in ter beschikking te stellen op fora. Ik heb daarom met Photoshop mijn eerste pagina
               gemaakt.</p>
-            <img src={chatbrawl} alt="picture" />
+            <div className="title-center">
+              <img src={chatbrawl} alt="picture" />
+            </div>
             <p>Door de plug-in online te posten groeide er een community van gebruikers van de plug-in. Bij deze
               gebruikers waren natuurlijk ook mensen die hulp nodig hadden met het configureren of bugs rapporteerden.
               Hierdoor groeide de plug-in waardoor er nood was aan een centraal punt waarlangs communicatie kon
@@ -220,7 +234,9 @@ export default function SelectiePage() {
               extra gegeven bij kwam kijken. Nadat ik de plug-in had uitgewerkt voor haar, deed ze mij een gunst. Ik
               mocht de plug-in publiceren onder mijn naam. Dit heb ik dan uiteindelijk ook gedaan. Het resultaat werd
               goed ontvangen door de community.</p>
+            <div className="title-center">
             <img src={litebansbridge} alt="picture" />
+            </div>
             <h1>PurePunish</h1>
             <p>Mijn derde plug-in was opnieuw een commissie die ik moest uitwerken voor een server owner. Deze plug-in
               was wel van een groter kaliber. PurePunish is een plug-in die een abstractielaag vormt voor het beheren
@@ -229,7 +245,9 @@ export default function SelectiePage() {
               Natuurlijk is het moeilijk om spelers op dat vlak gelijk te behandelen, aangezien niet elke moderator een
               bepaalde overtreding even erg vindt. PurePunish is een systeem dat hier verandering in brengt en ervoor
               zorgt dat elke speler gelijk behandeld wordt.</p>
+            <div className="title-center">
             <img src={purepunish} alt="picture" />
+            </div>
             <h1>FarmFrenzy</h1>
             <p>Na drie gratis plug-ins heb ik dan uiteindelijk ook een premium plug-in ontwikkeld. Deze is niet gratis
               en vereist de gebruiker om een licentie te kopen in ruil voor downloadrechten. Aangezien de community op
@@ -237,26 +255,34 @@ export default function SelectiePage() {
               doen wat ik graag doe gecombineerd met een aardig zakcentje.</p>
             <p>FarmFrenzy is een plug-in die focust op dieren in het spel. Er wordt als het ware een nieuwe dimensie
               gecreëerd rond de dieren. Dit is ook de plug-in waar het meeste tijd in gestoken is.</p>
+            <div className="title-center">
             <img src={farmfrenzy} alt="picture" />
+            </div>
             <h1>Woolly Development Discord</h1>
             <p>De Woolly Development Discord-server is het kanaal waarlangs alle communicatie gebeurt. In deze server
               zijn verschillende channels aangemaakt waarlangs gebruikers van onze plug-ins om hulp kunnen vragen.
               Daarnaast kunnen ze ook suggesties doen voor eventuele nieuwe features. Elke dag komen er nieuwe mensen
               bij in deze server. Op dit moment zitten we rond de kaap van 777 leden.</p>
+            <div className="title-center">
             <img src={membercount} alt="picture" />
+            </div>
             <p>Doordat de community aan het groeien was leek het ons ook een goed idee om onze programmeervaardigheden
               aan te scherpen en de community nog meer te laten groeien. We hadden het idee om andere ontwikkelaars, die
               ook hun eigen plug-ins hebben, te vragen of ze deel wouden uitmaken van de community. Na een aantal
               gesprekken maakten vijf nieuwe ontwikkelaars deel uit van onze community. Deze kregen dan ook elk op hun
               beurt support channels voor hun plug-ins. Hierdoor groeide de server nog verder.
             </p>
+            <div className="title-center">
             <img src={developers} alt="picture" />
+            </div>
             <p>Doordat we nu met een aantal ontwikkelaars samenwerkten, ontstond er ook de mogelijkheid om extra
               commissies aan te nemen van server owners die een op maat gemaakte plug-in nodig hadden. Oliver en ik
               deden de administratie en verdeelden het werk. We hielden alle projecten bij via een overzicht op Trello.
               Verder deden we ook de communicatie met de klant, deden we inschattingen en volgden we eventuele bugs op
               wanneer deze zich voordeden.</p>
+            <div className="title-center">
             <img src={trello} alt="picture" />
+            </div>
             <p>Naast de commissies hebben we ook een Patreon-plan opgesteld. Een Patreon-plan is een manier waarlangs
               mensen die ons willen steunen een maandelijkse bijdrage kunnen doen in de vorm van een betaalde
               subscriptie. In ruil krijgen ze hier dan een aantal voordelen voor. Een volledige lijst kan teruggevonden
@@ -264,7 +290,9 @@ export default function SelectiePage() {
             <p>Doordat we opgemerkt waren door een aantal instanties hebben we ook een partnership kunnen sluiten met
               Ramshard. Ramshard is een hostingbedrijf. In ruil voor reclame mochten we gratis serverruimte weggeven aan
               onze community.</p>
+            <div className="title-center">
             <img src={ramshard} alt="picture" />
+            </div>
             <p>Al dit harde werk resulteerde in een goed draaiende community waar we veel mensen online konden
               samenbrengen. Daarnaast konden we ook verder onze programmeervaardigheden en softskills verbeteren.</p>
             <p>Om te beginnen ben ik heel blij dat ik dit avontuur ben aangegaan met Oliver. Het was zeker niet altijd

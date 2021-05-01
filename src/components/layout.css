@@ -111,8 +111,9 @@
 }
 .card .card-summary {
   padding: 5% 5% 3% 5%;
-  height: 38%;
+  height: 200px;
   font-size: 80%;
+  margin-bottom: 5px;
 }
 .card .card-header {
   position: relative;
@@ -124,7 +125,9 @@
 }
 
 .card .card-meta {
+  margin-top: 5px;
   text-align: center;
+  height: 30px;
 }
 
 .card .card-title {
